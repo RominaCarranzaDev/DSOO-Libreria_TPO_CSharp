@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|c:\\users\\romi_\\source\\repos\\tpo bibilioteca\\tpo bibilioteca\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|solutionrelative:tpo bibilioteca\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|c:\\users\\romi_\\source\\repos\\tpo bibilioteca\\tpo bibilioteca\\lector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|solutionrelative:tpo bibilioteca\\lector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|c:\\users\\romi_\\source\\repos\\tpo bibilioteca\\tpo bibilioteca\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|solutionrelative:tpo bibilioteca\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|c:\\users\\romi_\\source\\repos\\tpo bibilioteca\\tpo bibilioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA0C56D9-884E-4822-8A33-F8B5579980F8}|TPO Bibilioteca\\TPO Bibilioteca.csproj|solutionrelative:tpo bibilioteca\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Test.cs",
+              "RelativeDocumentMoniker": "TPO Bibilioteca\\Test.cs",
+              "ToolTip": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Test.cs",
+              "RelativeToolTip": "TPO Bibilioteca\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T01:59:20.085Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "TPO Bibilioteca\\Biblioteca.cs",
+              "ToolTip": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Biblioteca.cs",
+              "RelativeToolTip": "TPO Bibilioteca\\Biblioteca.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswBkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T01:51:14.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lector.cs",
+              "DocumentMoniker": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Lector.cs",
+              "RelativeDocumentMoniker": "TPO Bibilioteca\\Lector.cs",
+              "ToolTip": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Lector.cs",
+              "RelativeToolTip": "TPO Bibilioteca\\Lector.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T18:33:05.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Libro.cs",
+              "RelativeDocumentMoniker": "TPO Bibilioteca\\Libro.cs",
+              "ToolTip": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\Libro.cs",
+              "RelativeToolTip": "TPO Bibilioteca\\Libro.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T02:17:51.996Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
