@@ -12,3 +12,4 @@ C:\Users\romi_\source\repos\TPO Bibilioteca\TPO Bibilioteca\obj\Debug\net8.0\ref
 C:\Users\romi_\source\repos\TPO Bibilioteca\TPO Bibilioteca\obj\Debug\net8.0\TPO Bibilioteca.pdb
 C:\Users\romi_\source\repos\TPO Bibilioteca\TPO Bibilioteca\obj\Debug\net8.0\TPO Bibilioteca.genruntimeconfig.cache
 C:\Users\romi_\source\repos\TPO Bibilioteca\TPO Bibilioteca\obj\Debug\net8.0\ref\TPO Bibilioteca.dll
+C:\Users\romi_\source\repos\TPO Bibilioteca\TPO Bibilioteca\obj\Debug\net8.0\TPO Bibilioteca.sourcelink.json

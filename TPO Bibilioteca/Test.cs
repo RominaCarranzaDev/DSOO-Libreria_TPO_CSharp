@@ -78,11 +78,11 @@ class Test
             Console.WriteLine("2. Lectores");
             Console.WriteLine("3. Préstamos");
             Console.WriteLine("0. Salir");
-            Console.WriteLine("\nSeleccione una opcion:");
+            Console.WriteLine("\nSeleccione una opción:");
 
             while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 0 || opcion > 3)
             {
-                Console.WriteLine("Error: Opcion invalida.\nSeleccione una opcion:");
+                Console.WriteLine("Error: Opción inválida.\nSeleccione una opcion:");
 
             }
 
@@ -108,7 +108,7 @@ class Test
         do
         {
             Console.WriteLine("\n*** LIBROS ***");
-            Console.WriteLine("\nSeleccione una opcion:");
+            Console.WriteLine("\nSeleccione una opción:");
             Console.WriteLine("1. Listar");
             Console.WriteLine("2. Agregar");
             Console.WriteLine("3. Eliminar");
@@ -116,7 +116,7 @@ class Test
         
             while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 0 || opcion > 3)
             {
-                Console.WriteLine("Error: Opcion invalida.\nSeleccione una opcion:");
+                Console.WriteLine("Error: Opción inválida.\nSeleccione una opción:");
 
             }
             switch (opcion)
@@ -126,7 +126,7 @@ class Test
                     break;
                 case 2:
                     Console.WriteLine("Ingrese los siguientes datos del libro.");
-                    Console.Write("Titulo: ");
+                    Console.Write("Título: ");
                     string titulo = Console.ReadLine();
 
                     Console.Write("Autor: ");
@@ -137,23 +137,22 @@ class Test
 
                     Console.WriteLine(
                         b.agregarLibro(titulo, autor, editorial)
-                        ? "Libro agregado"
-                        : "Ya existe"
+                        ? "Libro agregado correctamente."
+                        : "No se puede agregar, el libro ya existe."
                     );
                     break;
 
                 case 3:
-                    Console.Write("Titulo a eliminar: ");
+                    Console.Write("Título a eliminar: ");
                     titulo = Console.ReadLine();
 
                     Console.WriteLine(
                         b.eliminarLibro(titulo)
-                        ? "Eliminado correctamente."
-                        : "No encontrado!"
+                        ? "Libro eliminado correctamente."
+                        : "Libro no encontrado!"
                     );
                     break;
             }
-
         } while (opcion != 0);
     }
     static void MenuLectores(Biblioteca b)
@@ -162,14 +161,14 @@ class Test
         do
         {
             Console.WriteLine("\n*** LECTORES ***");
-            Console.WriteLine("\nSeleccione una opcion:");
+            Console.WriteLine("\nSeleccione una opción:");
             Console.WriteLine("1. Listar");
             Console.WriteLine("2. Alta");
             Console.WriteLine("0. Volver");
 
             while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 0 || opcion > 2)
             {
-                Console.WriteLine("Error: Opcion invalida.\nSeleccione una opcion:");
+                Console.WriteLine("Error: Opción inválida.\nSeleccione una opción: ");
 
             }
 
@@ -188,12 +187,11 @@ class Test
 
                     Console.WriteLine(
                         b.altaLector(nombre, dni)
-                        ? "Lector agregado correctamente"
-                        : "El lector ya existe"
+                        ? "Lector agregado correctamente."
+                        : "El lector ya existe."
                     );
                     break;
             }
-
         } while (opcion != 0);
     }
     static void MenuPrestamos(Biblioteca b)
@@ -202,7 +200,7 @@ class Test
         do
         {
             Console.WriteLine("\n*** PRÉSTAMOS ***\n");
-            Console.WriteLine("\nSeleccione una opcion:");
+            Console.WriteLine("\nSeleccione una opción:");
             Console.WriteLine("1. Prestar libro");
             Console.WriteLine("2. Devolver libro");
             Console.WriteLine("0. Volver");
@@ -216,7 +214,7 @@ class Test
             Console.Write("Ingrese el DNI del lector: ");
             string dni = Console.ReadLine();
 
-            Console.Write("Ingrese el titulo del libro: ");
+            Console.Write("Ingrese el título del libro: ");
             string titulo = Console.ReadLine();
 
             switch (opcion)
@@ -231,7 +229,6 @@ class Test
                     opcion = 0;
                     break;
             }
-
         } while (opcion != 0);
     }
 }

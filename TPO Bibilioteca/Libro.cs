@@ -25,7 +25,7 @@ namespace TPO_Bibilioteca
         public string Editorial => editorial;
 
         public override string ToString() {
-            return $"Titulo: {titulo} \nAutor: {Autor} \nEditorial: {Editorial}";
+            return $"Título: {titulo} \nAutor: {Autor} \nEditorial: {Editorial}";
         }
     }
 }

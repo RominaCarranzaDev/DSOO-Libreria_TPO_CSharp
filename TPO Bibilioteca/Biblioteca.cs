@@ -74,11 +74,11 @@ namespace TPO_Bibilioteca
             Lector lector = buscarLector(dniLector);
             if (lector == null) return "LECTOR INEXISTENTE";
 
-            if (!lector.puedePedirPrestado()) return "TOPE DE PRESTAMO ALCAZADO";
+            if (!lector.puedePedirPrestado()) return "TOPE DE PRÉSTAMO ALCANZADO";
 
             librosRegistrados.Remove(libro);
             lector.agregarLibro(libro);
-            return "PRESTAMO EXITOSO";
+            return "PRÉSTAMO EXITOSO";
         }
         public string reponerLibro(string tituloLibro, string dniLector)
         {

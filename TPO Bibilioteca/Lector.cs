@@ -45,7 +45,7 @@ namespace TPO_Bibilioteca
         }
         public override string ToString()
         {
-            return $"Lector: {nombre} \nCantidad de Libros Prestados: {librosPrestados.Count}\n";
+            return $"Lector: {nombre}\nDNI: {dni} \nCantidad de Libros Prestados: {librosPrestados.Count}\n";
         }
     }
 }

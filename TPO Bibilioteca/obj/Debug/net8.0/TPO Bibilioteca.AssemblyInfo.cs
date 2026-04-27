@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPO Bibilioteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+521b863997a0455f2b28695f206d63a5fa58b3db")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPO Bibilioteca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPO Bibilioteca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
