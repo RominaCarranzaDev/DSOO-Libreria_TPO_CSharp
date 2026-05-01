@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TPO_Bibilioteca;
+using TPO_Biblioteca;
 
 class Test
 {
@@ -210,24 +210,25 @@ class Test
                 Console.WriteLine("Error: Opcion invalida.\nSeleccione una opcion:");
 
             }
+            if (opcion != 0) { 
+                Console.Write("Ingrese el DNI del lector: ");
+                string dni = Console.ReadLine();
 
-            Console.Write("Ingrese el DNI del lector: ");
-            string dni = Console.ReadLine();
+                Console.Write("Ingrese el título del libro: ");
+                string titulo = Console.ReadLine();
 
-            Console.Write("Ingrese el título del libro: ");
-            string titulo = Console.ReadLine();
+                switch (opcion)
+                {
+                    case 1:
+                        Console.WriteLine(b.prestarLibro(titulo, dni));
+                        opcion = 0;
+                        break;
 
-            switch (opcion)
-            {
-                case 1:
-                    Console.WriteLine(b.prestarLibro(titulo, dni));
-                    opcion = 0;
-                    break;
-
-                case 2:
-                    Console.WriteLine(b.reponerLibro(titulo, dni));
-                    opcion = 0;
-                    break;
+                    case 2:
+                        Console.WriteLine(b.reponerLibro(titulo, dni));
+                        opcion = 0;
+                        break;
+                }
             }
         } while (opcion != 0);
     }

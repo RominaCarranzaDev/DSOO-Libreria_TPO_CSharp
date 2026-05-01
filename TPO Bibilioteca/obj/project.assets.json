@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\TPO Bibilioteca.csproj",
-      "projectName": "TPO Bibilioteca",
-      "projectPath": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\TPO Bibilioteca.csproj",
+      "projectUniqueName": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\TPO Biblioteca.csproj",
+      "projectName": "TPO Biblioteca",
+      "projectPath": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\TPO Biblioteca.csproj",
       "packagesPath": "C:\\Users\\romi_\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\romi_\\source\\repos\\TPO Bibilioteca\\TPO Bibilioteca\\obj\\",
       "projectStyle": "PackageReference",
